@@ -1,0 +1,38 @@
+{
+  "name": "move-file",
+  "version": "1.0.0",
+  "main": "moveFile.js",
+  "scripts": {
+        "build": "rollup -c",
+        "prepublishOnly": "npm run build"
+    },
+  "author": "Volodymyr Holodivskyi",
+  "license": "ISC",
+  "description": "Plugin for moving files into Downloads folder on Android API >=29",
+  "capacitor": {
+    "android": {
+      "src": "android"
+    }
+  },
+  "exports": {
+    ".": {
+      "types": "./definitions.d.ts",
+      "default": "./moveFile.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "moveFile.*",
+    "definitions.d.ts",
+    "android/build.gradle",
+    "android/settings.gradle",
+    "android/gradle/wrapper/gradle-wrapper.properties",
+    "android/gradle.properties",
+    "android/proguard-rules.pro",
+    "android/src/main/"
+  ],
+  "types": "definitions.d.ts",
+  "peerDependencies": {
+    "@capacitor/core": "^5.0.0"
+  }
+}
