@@ -1,5 +1,5 @@
 {
-  "name": "move-file",
+  "name": "capacitor-move-file",
   "version": "1.0.0",
   "main": "moveFile.js",
   "scripts": {
@@ -16,7 +16,7 @@
   },
   "repository": {
         "type": "git",
-        "url": "https://github.com/diachedelic/capacitor-blob-writer"
+        "url": "https://github.com/volodymyr-holodivskyi/capacitor-move-file"
   },
   "exports": {
     ".": {
