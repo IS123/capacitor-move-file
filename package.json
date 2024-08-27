@@ -2,10 +2,6 @@
   "name": "capacitor-move-file",
   "version": "1.0.0",
   "main": "moveFile.js",
-  "scripts": {
-        "build": "rollup -c",
-        "prepublishOnly": "npm run build"
-    },
   "author": "Volodymyr Holodivskyi",
   "license": "ISC",
   "description": "Plugin for moving files into Downloads folder on Android API >=29",
